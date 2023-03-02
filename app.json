@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Budol Finds",
+    "slug": "budol-finds",
+    "description": "This is a simple e-commerce app. Where you can get all sound device",
+    "version": "1.0.0",
+    "privacy": "public",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.aimee13.budolfinds"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
